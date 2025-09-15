@@ -1,0 +1,1 @@
+<small>{{ $review->helpful_yes }} of {{ $review->helpful_yes + $review->helpful_no }} people found this review helpful. Did you? </small><a href="javascript:review_helpful('{{ $review->id }}','1')" class="btn btn-default btn-xs">Yes</a> <a href="javascript:review_helpful('{{ $review->id }}','0')" class="btn btn-default btn-xs">No</a>
